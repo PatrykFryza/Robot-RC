@@ -3,7 +3,7 @@
 
 
 /** 
- * @brief Calculates joystick input to a parameter used for calculating motor speed
+ * @brief Calculates joystick input to a parameter used for setting motor speed
  * 
  * @param value raw joystick input
  * 
@@ -19,7 +19,7 @@ int8_t direction_calculator(int value);
 void adc_init();
 
 /** 
- * @brief Task that read joystick and potentiometr input
+ * @brief Task that reads joystick and potentiometr input
  * 
  * @param pvParameter
  * 
